@@ -8,15 +8,12 @@ updates:
   - package-ecosystem: docker
     directory: /
     schedule:
-      day: thursday
-      interval: weekly
+      interval: daily
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      day: thursday
-      interval: weekly
+      interval: daily
   - package-ecosystem: gomod
     directory: /
     schedule:
-      day: thursday
-      interval: weekly
+      interval: daily
